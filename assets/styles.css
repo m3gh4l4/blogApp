@@ -1,0 +1,60 @@
+body {
+  background-color: #0f121f;
+  background-repeat: repeat-x;
+  color: #fff;
+}
+
+body * {
+  font-family: Ubuntu;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+  margin: 0;
+}
+
+a,
+a:hover,
+a:visited {
+  color: #fff;
+  text-decoration: none;
+}
+
+div.wrapper > h1 {
+  text-align: center;
+}
+
+header {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 20px 0;
+}
+
+nav {
+  justify-self: end;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+nav button {
+  background: none;
+  color: white;
+  cursor: pointer;
+  border: 0;
+  font-size: 1em;
+}
+
+
+.form-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}

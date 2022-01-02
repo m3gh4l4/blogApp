@@ -1,0 +1,12 @@
+{% extends 'base_layout.html' %}
+{% load static %}
+
+{% block main_content %}
+    <h1>sign up</h1>
+
+    <form class="site-form" action="{% url 'accounts:signup' %}" method="post">
+        {% csrf_token %}
+        {{form}}
+        <input type="submit" value="Signup" >
+    </form>
+{% endblock %}}
